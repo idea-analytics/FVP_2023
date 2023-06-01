@@ -1,0 +1,129 @@
+"","StudentNumber","FirstName","LastName","AcademicYear","SchoolShortName","PhysicalStreet","FatherFullName","MotherFullName","PhoneStudentHome","ECDFlag","RegionDescription","RegionID"
+"1",108181731,"Jayde","Bradley","2022-2023","Health Professions","2504 New York Drive, 115","Bradley, Lance","Milhouse, Tyquisha","512-701-9291",TRUE,"Austin",1
+"2",108088909,"Alizah","Nobles","2022-2023","Kyle","382 Bloomsbury Dr","","Nino, Lauren","1-512-680-7332",TRUE,"Austin",1
+"3",108079434,"Adrian","Jaimes","2022-2023","Bluff Springs","1415 Craddock Ave Apt 6118","Jaimes, Javier","Martinez, Angeline","1-512-783-4611",TRUE,"Austin",1
+"4",108093451,"Kayla","Bustillo","2022-2023","Parmer Park","10000 N Lamar Blvd #1049","Bustillo, Jaime","Avila, Kenia","512-851-3289",TRUE,"Austin",1
+"5",108053964,"Ashley","Olmos","2022-2023","Bluff Springs","6903 Bitteroot Trl","","Calixto Renteria, Alicia","512-701-6096",TRUE,"Austin",1
+"6",108070441,"Ian","Sanchez Pablo","2022-2023","Bluff Springs","1601 E Slaughter Ln, 305","Sanchez, Alberto","nava, arlanda","1-512-679-1363",TRUE,"Austin",1
+"7",108092523,"Andrea","Pineda Rodriguez","2022-2023","Parmer Park","11421 Ptarmigan Dr, B","Pineda, Juan","Rodriguez, Dora","504-518-0010",TRUE,"Austin",1
+"8",108113531,"Laila","Hernandez","2022-2023","Kyle","510 Kohlers Crossing","","Sutton, Tyie","512-665-7043",TRUE,"Austin",1
+"9",108200467,"Rafael","Maldonado","2022-2023","Parmer Park","1113 Faircrest Drive","","Romero Bernal, Diamantina Y","512-903-0761",TRUE,"Austin",1
+"10",108197392,"Noe","Lopez-Navarro","2022-2023","Kyle","157 Kype Cove","Lopez Navarro, Noe","Navarro, Janett","512-630-5384",TRUE,"Austin",1
+"11",108073997,"Jobe","Rojas","2022-2023","Kyle","133 Bobbin Cove","Rojas, Jose","Rojas, Nohemi","1-956-475-2929",TRUE,"Austin",1
+"12",108204189,"Josuan","Hernandez Chavarria","2022-2023","Kyle","500 Creek'S Landing Drive","","Chavarria Padilla, Damarys","512-638-7760",TRUE,"Austin",1
+"13",108197866,"Ashley","Lopez Funez","2022-2023","Parmer Park","1500 East Parmer Lane, 1136","","Funez, Kimberling","512-893-9732",TRUE,"Austin",1
+"14",108148752,"Jacob","Euceda-Vallecillo","2022-2023","Parmer Park","300 Ferguson Drive,8301","Euceda, Elvis","Vallecillo, Brenda","737-703-7109",TRUE,"Austin",1
+"15",108138764,"Milah","Coronado-Hotard","2022-2023","Kyle","584 Bandera Street","","Hotard, Sarah","512-709-3838",TRUE,"Austin",1
+"16",108079891,"Joseph","Garza","2022-2023","Kyle","251 Wild Buffalo Dr","Garza, Joseph","Garza, Rebecca","1-512-998-5585",TRUE,"Austin",1
+"17",390001383,"Jose","Veliz","2022-2023","Valley View","881 Fairborn Road","","Consuelo, Maria","513-301-6165",TRUE,"Cincinnati",14
+"18",390003984,"Aaron","Monkam","2022-2023","Valley View","45 Stone Meadow Court","Monkam, Joseph","Monkam, Danielle","513-805-9845",TRUE,"Cincinnati",14
+"19",390001621,"Ta'leigha","Scott","2022-2023","Valley View","3031 Oberlin Court, 3031","","Nash, Tatshyanna","513-302-8973",TRUE,"Cincinnati",14
+"20",390000941,"Kenya","Smith","2022-2023","Valley View","7839 Dawn Road, Apt 3","Smith, Ken","Ciera, Allen","513-372-2850",TRUE,"Cincinnati",14
+"21",390003124,"Catalina","Gibson","2022-2023","Valley View","6330 Montgomery Road","","Gibson, Chakendra","513-689-2017",TRUE,"Cincinnati",14
+"22",390000241,"Janiyah","Coats","2022-2023","Valley View","1171 Chesterwood Ct, B","Coats, William","Cromwell, Tierra","513-295-2358",TRUE,"Cincinnati",14
+"23",390002921,"Khalil","Franklin","2022-2023","Valley View","1054 Byrd Avenue","","Franklin, Brittany","859-462-2197",TRUE,"Cincinnati",14
+"24",390000622,"Kimoura","Cardwell","2022-2023","Valley View","228 Williams Street, #1","","Cardwell, Dominique","513-550-6485",TRUE,"Cincinnati",14
+"25",390003004,"Nalani","Nealy","2022-2023","Valley View","809 Medosh Street","","Nealy, Khayna","513-769-0144",TRUE,"Cincinnati",14
+"26",390001201,"Da'Mauria","Davis","2022-2023","Valley View","3103 Nightfall Court","Davis, Pleze","Glover, Armanui","513-266-5896",TRUE,"Cincinnati",14
+"27",390000006,"Adrian","Corbin","2022-2023","Valley View","7120 Vine,Rear 1","","Dark, Shantel","513-486-8732",TRUE,"Cincinnati",14
+"28",390000024,"Melia","Henderson","2022-2023","Valley View","933 Lindy Avenue","Henderson, Donte","","513-485-5901",TRUE,"Cincinnati",14
+"29",390003901,"Elijah","Hughes","2022-2023","Valley View","917 Jackson Street, Apt 1","Hughes, Dvonte","Mahoney, Jessica","513-390-3783",TRUE,"Cincinnati",14
+"30",390001241,"Adreon","Corbin","2022-2023","Valley View","7120 Vine Street,Rear 1","","Dark, Shantel","513-486-8732",TRUE,"Cincinnati",14
+"31",390003423,"Eian","Dyson","2022-2023","Valley View","224 South Wayne Avenue","Dyson, Darron","Walker, Ashley","513-253-9549",TRUE,"Cincinnati",14
+"32",390000034,"Ashley","Mccomb","2022-2023","Valley View","5636 Helen Street","","Hunter, Ashley","513-203-7371",TRUE,"Cincinnati",14
+"33",108137727,"Dharma","Talavera","2022-2023","Mesa Hills","916 Centennial Drive","Talavera, Jorge","Llanas, Diana","915-845-5481",TRUE,"El Paso",5
+"34",108126206,"Arely","Molina","2022-2023","Mesa Hills","245 Northwind Drive","Molina, Tunie Jonathan","Valdez, Anelly","915-694-1826",TRUE,"El Paso",5
+"35",108090723,"Erick","Posselt","2022-2023","Mesa Hills","319 Pageant Ct","Ramirez, Jose","Posselt, Erika","1-915-449-9657",TRUE,"El Paso",5
+"36",108194395,"Ytalia","Lautret","2022-2023","Mesa Hills","1509 Hannibal Street","Lautret, Dorian","De La Rosa, Gabriela","915-787-0094",TRUE,"El Paso",5
+"37",108194394,"Halle","Garibay","2022-2023","Mesa Hills","15598 Hueco View Drive","garibay, edgar","Garibay, Adriana","575-636-7389",TRUE,"El Paso",5
+"38",108192951,"Isabella","Reyes","2022-2023","Mesa Hills","7133 North Mesa Street, 53","Miranda, Alexis","Reyes, Anahi","915-487-6422",TRUE,"El Paso",5
+"39",108091860,"Emily","Arellano Salazar","2022-2023","Mesa Hills","108 E Castellano Dr Apt 107","","Salazar, Nora","1-915-315-0547",TRUE,"El Paso",5
+"40",108190459,"Megan","Navarro","2022-2023","Mesa Hills","209 N Mesa Hills Dr, 1925","Navarro, Victor","Navarro, Yolanda","915-206-9987",TRUE,"El Paso",5
+"41",108193029,"Joely","Aldama","2022-2023","Mesa Hills","2528 Mountain Avenue","Aldama, Alonzo","Castro, Jocelyn","915-228-7278",TRUE,"El Paso",5
+"42",108182923,"Alan","Aguilar Hernandez","2022-2023","Mesa Hills","140 Shadow Mountain Drive, L59","Aguilar, Pedro","","915-282-5219",TRUE,"El Paso",5
+"43",108200549,"Monserrat","Olvera","2022-2023","Mesa Hills","5890 Bandolero Drive, 1072","","Olvera, Gina","915-283-7847",TRUE,"El Paso",5
+"44",108108564,"Clarissa","Lara","2022-2023","Mesa Hills","709 El Pinal Place","","Lara, Korina","915-588-1639",TRUE,"El Paso",5
+"45",108149301,"Angelique","Contreras","2022-2023","Mesa Hills","5353 Ridge Street","","Carrillo, Erica","915-328-8221",TRUE,"El Paso",5
+"46",108186270,"Diego","Segovia Magallanes","2022-2023","Mesa Hills","415 South Mesa Hills Drive, 1313","","Magallanes, Evelyn","915-234-6537",TRUE,"El Paso",5
+"47",108103906,"Romance","Stewart","2022-2023","Mesa Hills","7782 Enchanted Ridge Dr","Stewart, Ramon","Williams, Iesha","915-637-5474",TRUE,"El Paso",5
+"48",108152003,"Dylan","Jimenez","2022-2023","Mesa Hills","7605 Windcrest Drive","","Jimenez, Ana","915-305-6154",TRUE,"El Paso",5
+"49",120008322,"Keyonna","Akins","2022-2023","River Bluff","1212 East 1st Street, 90","","","",TRUE,"Jacksonville",15
+"50",120008346,"Zowie","Haynes","2022-2023","River Bluff","6100 Arlington expressway, APT C104","","","",TRUE,"Jacksonville",15
+"51",120010084,"Rihanna","Hardeman","2022-2023","River Bluff","3269 University Blvd N, 260","","","",TRUE,"Jacksonville",15
+"52",120008746,"Randall","Mclean","2022-2023","River Bluff","2260 University Blvd N","","","",TRUE,"Jacksonville",15
+"53",120009802,"Makenzie","Saffold","2022-2023","River Bluff","6680 Bennett Creek Dr., 725","","","",TRUE,"Jacksonville",15
+"54",120008946,"Harmony","Bell","2022-2023","River Bluff","1317 Easter Street, Apt3","","","",TRUE,"Jacksonville",15
+"55",120009455,"Adassha","Galindo","2022-2023","River Bluff","2829 Melhollin DR","","","",TRUE,"Jacksonville",15
+"56",120008339,"Josielys Aimar","Esteva-Rios","2022-2023","River Bluff","5703 holly bell dr, 2","","","",TRUE,"Jacksonville",15
+"57",120010224,"Antoine","Spight","2022-2023","River Bluff","12021 Mccormick Road, 1002","","","",TRUE,"Jacksonville",15
+"58",120010262,"Nolan","Davis","2022-2023","River Bluff","5645 Michigan Avenue","","","",TRUE,"Jacksonville",15
+"59",120008631,"Simon","Gonzalez Franco","2022-2023","River Bluff","11133 Windy Oaks Drive North","","","",TRUE,"Jacksonville",15
+"60",120008052,"William","Tunsill","2022-2023","River Bluff","9359 103rd St","","","",TRUE,"Jacksonville",15
+"61",120008230,"Jacob","Munoz","2022-2023","River Bluff","3119 Cathedral Lane","","","",TRUE,"Jacksonville",15
+"62",120010290,"Ujima","Rodgers","2022-2023","River Bluff","2621 University Boulevard North, D210","","","",TRUE,"Jacksonville",15
+"63",120009744,"Justin","Proano","2022-2023","River Bluff","2631 University Blvd N, 214F","","","",TRUE,"Jacksonville",15
+"64",120009347,"Jamal","Santiago","2022-2023","River Bluff","2623 Caladium Road","","","",TRUE,"Jacksonville",15
+"65",108095604,"Yovanni","Casillas","2022-2023","Owassa","261 Daisy St","","Moreno, Patricia","1-956-510-3329",TRUE,"Rio Grande Valley",7
+"66",108145982,"Julian","Garcia","2022-2023","Owassa","3219 luz divina st, C","Garcia, Filiberto","Bautista, Samantha","956-292-1886",TRUE,"Rio Grande Valley",7
+"67",108040999,"Angeliya","King","2022-2023","Owassa","1502 W Kiwi Ave Apt 3","King, Bennie","Lapizco, Angelica","714-932-3528",TRUE,"Rio Grande Valley",7
+"68",108150809,"Ernesto","Martinez","2022-2023","Sports Park","621 East Washington Street, A","Martinez, Ernesto","Valdez Mercado, Victoria Jasmine","956-382-8635",TRUE,"Rio Grande Valley",7
+"69",108095625,"Angela","Martinez","2022-2023","Owassa","5514 Sugar Lane Dr","","Martinez, Belies","1-956-784-2594",TRUE,"Rio Grande Valley",7
+"70",108079957,"Clarity","Jimenez","2022-2023","Owassa","222 N 17TH ST UNIT REAR","Jimenez, Savino","Salinas, Adrianne","956-328-3643",TRUE,"Rio Grande Valley",7
+"71",108180022,"Martina","Espinosa","2022-2023","Owassa","602 E Ebony Ave, Lot 58","","Hernandez, Emma","956-484-5550",TRUE,"Rio Grande Valley",7
+"72",108109689,"Nathan","Rodriguez","2022-2023","Owassa","3216 East Saturn Street","Rodriguez, Gerardo","Rodriguez, Monica","956-562-6353",TRUE,"Rio Grande Valley",7
+"73",108040557,"Jacqueline","Baltierra","2022-2023","Owassa","1001 East Owassa Rd","Beltierra, Miguel","Baltierra, Maribel","1-956-510-1246",TRUE,"Rio Grande Valley",7
+"74",108117569,"Eduardo","Navarro","2022-2023","Sports Park","205 Calle Amistosa, 254","Navarro, Eduardo","Cavasoz, Liliana","956-643-0528",TRUE,"Rio Grande Valley",7
+"75",108120150,"Diego","Vega Garcia","2022-2023","Sports Park","132 Cuba Street","De Jesus, Camilo","Garcia, Daniela","868-102-3670",TRUE,"Rio Grande Valley",7
+"76",108196589,"Edgar","Cantu Gonzalez","2022-2023","Owassa","5022 Dove Avenue","Cantu Cantu, Edgar","Gonzalez, Brianda","956-329-3380",TRUE,"Rio Grande Valley",7
+"77",108113680,"Emma","Aguilera","2022-2023","Sports Park","2064 Carranza Street","","Lopez, Ruth","956-466-8889",TRUE,"Rio Grande Valley",7
+"78",108185451,"Aldo","Lopez","2022-2023","Owassa","911 West Caffery Street, Apt #2","","","956-404-3187",TRUE,"Rio Grande Valley",7
+"79",108152030,"Alexander","Garcia Rodriguez","2022-2023","Sports Park","8465 Lakeside Boulevard, 6203","Garcia, Israel","Rodriguez Cueva, Maria Trinidad","868-156-8808",TRUE,"Rio Grande Valley",7
+"80",108182521,"Abigail","Suarez","2022-2023","Sports Park","2206 Dennis Ave","Suarez, Jose","","682-246-6642",TRUE,"Rio Grande Valley",7
+"81",108136551,"Anthony","Banda","2022-2023","Converse","7611 Powder Gorge","Banda, Jose","Banda, Tania","210-762-9957",TRUE,"San Antonio",2
+"82",108162061,"Skylar","Carter","2022-2023","Converse","9314 Vaquillas Vw","Carter, Devonta","Dorsey, Gabrielle","713-731-4550",TRUE,"San Antonio",2
+"83",108183220,"Sylus","Lopez","2022-2023","Najim","130 Felisa Street, Apt 2","","Hernandez, Meghan","210-878-7205",TRUE,"San Antonio",2
+"84",108054782,"Melina","De Leon","2022-2023","Eastside","4346 Roark Dr","Deleon, Braulio","Zepeda, Maria","1-210-425-9121",TRUE,"San Antonio",2
+"85",108178487,"Jaylynn","Zuniga","2022-2023","Carver","2818 Austin Hwy, 1103","","Ramirez, Monica","210-462-3073",TRUE,"San Antonio",2
+"86",108177811,"Landen","Wright","2022-2023","Najim","4247 Skelton Drive","","Smith Martin, Lashelle","210-827-7503",TRUE,"San Antonio",2
+"87",108151030,"Hiroko","Villarreal","2022-2023","Najim","5764 Stuart Road","","Preest, Rebecca","210-315-3510",TRUE,"San Antonio",2
+"88",108075251,"Madoxx","Chalte","2022-2023","Monterrey Park","227 Bradford Ave","CHALTE, RICARDO","Chalte, Lori","1-210-763-9457",TRUE,"San Antonio",2
+"89",108138304,"Max","Martinez","2022-2023","Brackenridge","110 Fernleaf Avenue","","Rivera, Angelica","210-461-2160",TRUE,"San Antonio",2
+"90",108113330,"Gianna","Riojas","2022-2023","Carver","7011 Cades Cove Circle","Riojas, Victor","Leal, Dezarae","210-552-0702",TRUE,"San Antonio",2
+"91",108063447,"Tristin","Holbrook","2022-2023","Monterrey Park","23250 Hickory Shadow Drive","","holbrook, nina","210-621-0286",TRUE,"San Antonio",2
+"92",108184034,"Santos","Flores","2022-2023","Converse","6806 Puente Fields","","Martinez, Andrea","956-257-6575",TRUE,"San Antonio",2
+"93",108113379,"Aminah","Guerrero","2022-2023","Brackenridge","5523 Degan Way","","Abdul Allah, Khadijah","210-975-0110",TRUE,"San Antonio",2
+"94",108157053,"Jaylen","Ruffins","2022-2023","Converse","7674 Mustang Meadow","","Allen, Sharae","210-585-1519",TRUE,"San Antonio",2
+"95",108114128,"Jayden","Evans","2022-2023","Eastside","2135 Wyoming Street","","","210-788-4632",TRUE,"San Antonio",2
+"96",108039311,"Rosa","Perez","2022-2023","Eastside","1306 center","Perez, Elias","Quijano, Yolanda","210-719-3307",TRUE,"San Antonio",2
+"97",101018605,"Ky'Ran","Brown","2022-2023","UP","6469 Underwood Avenue","","Brown, Takara","225-229-0632",TRUE,"Southern Louisiana",6
+"98",101009606,"Riley","Robinson","2022-2023","UP","1028 North 30Th Street","","Campbell, Jennifer","225-239-8993",TRUE,"Southern Louisiana",6
+"99",101002503,"Ta'Niya","Link","2022-2023","Innovation","2132 Gardere Ln, B","Link, Robert","Myles, Lakeshia","225-360-8932",TRUE,"Southern Louisiana",6
+"100",101009166,"Rilee","Wells","2022-2023","Innovation","11580 Perkins Rd,184","","Wells, Tonshae","225-284-1830",TRUE,"Southern Louisiana",6
+"101",101015804,"Bradley","Alberto","2022-2023","Innovation","9122 G S R I Avenue, 4","Alberto, Hugo","","443-694-5594",TRUE,"Southern Louisiana",6
+"102",101015023,"Niyah","Lomas","2022-2023","Innovation","1257 Jim Taylor Drive,Apt 2","Allen, Deonta","Lomas, Keyana","225-819-9799",TRUE,"Southern Louisiana",6
+"103",101005741,"Cristhian","Enamorado","2022-2023","Innovation","1616 Jade Avenue","","Enamorado, Sonia","225-960-9410",TRUE,"Southern Louisiana",6
+"104",101016743,"Journii","Taylor","2022-2023","UP","2615 Fairfields Ave","Johnson, Darryl","Taylor, Jessica","225-407-3710",TRUE,"Southern Louisiana",6
+"105",101005891,"Alberto","Rivera","2022-2023","Innovation","1717 Jade Avenue, D","","Pavon, Gloria","225-620-9748",TRUE,"Southern Louisiana",6
+"106",101007230,"Marcela","Hernandez Abelar","2022-2023","UP","7124 calumet st","Hernandez, Marcelo","Abelar, Maria","225-436-9390",TRUE,"Southern Louisiana",6
+"107",101016966,"Zyiere","Mcghee","2022-2023","UP","1624 Clear Lake Avenue, Apt. D","","Mcghee, Roneshia","225-828-2973",TRUE,"Southern Louisiana",6
+"108",101016231,"Kaelyn","Jackson","2022-2023","UP","3038 68Th Ave","","Moore, April","225-202-4845",TRUE,"Southern Louisiana",6
+"109",101007447,"Marchis","Gillard","2022-2023","UP","6454 airline hwy 7208","","Williams, Cheynne","225-746-3047",TRUE,"Southern Louisiana",6
+"110",101001672,"Jaycen","Franks","2022-2023","Innovation","2245 College Dr, 62","","Profit, Jhaniqua","225-678-2900",TRUE,"Southern Louisiana",6
+"111",101011508,"Daniel","Garcia","2022-2023","Innovation","8424 South Essen Heights Court","","Garcia, Elizabeth","210-202-7641",TRUE,"Southern Louisiana",6
+"112",101001652,"Vanessa","Munoz","2022-2023","Innovation","1625 Jade Ave, apt a","","Blauco, Mirna","1-225-252-8470",TRUE,"Southern Louisiana",6
+"113",108171687,"Bryan","Escamilla Frias","2022-2023","Achieve","909 South Perkins Street","","Frias, Maria","682-329-2084",TRUE,"Tarrant County",9
+"114",108181300,"Delilah","Palacios","2022-2023","Achieve","4034 Wheeler Street","Palacios, John","Barajas, Jazmin","682-760-0105",TRUE,"Tarrant County",9
+"115",108218447,"Jessica","Gonzalez","2022-2023","Achieve","5200 E Lancaster Ave, 204","","Gonzalez, Ashlie","817-495-7764",TRUE,"Tarrant County",9
+"116",108208427,"Meybelin","Ramos Franco","2022-2023","Achieve","1736 Stalcup Road","Ramos, Wilber","","682-222-6307",TRUE,"Tarrant County",9
+"117",108191022,"Marissa","Santoyo","2022-2023","Achieve","3614 Avenue L","","Cruz, Jasmine","817-609-9681",TRUE,"Tarrant County",9
+"118",108158744,"Jocelyn","Herrera Ramirez","2022-2023","Achieve","708 Lincoln Green Drive","Herrera Toledo, Moises","Ramirez, Dhayne","682-788-6752",TRUE,"Tarrant County",9
+"119",108178296,"Sophia","Garcia","2022-2023","Achieve","3712 Galvez Avenue","Garcia, Francisco","Garcia, Maria","682-701-1149",TRUE,"Tarrant County",9
+"120",108200992,"Christian","Sims","2022-2023","Achieve","3207 East Park Row Drive,Unit D","","Swain, Qiana","817-534-8828",TRUE,"Tarrant County",9
+"121",108100498,"Sergio","Navarro Flores","2022-2023","Achieve","2725 Bull Shoals Dr","Navarro, Sergio","Flores, Brenda","682-966-8665",TRUE,"Tarrant County",9
+"122",108122684,"Khylah","Davis","2022-2023","Achieve","7812 Castillo Road","Davis, Theron","Daw, Kebrina","817-851-1141",TRUE,"Tarrant County",9
+"123",108105537,"Christian","Torres","2022-2023","Achieve","2505 Glencrest Drive","Torres, Joseph","Rodriguez, Jaqueline","817-724-8533",TRUE,"Tarrant County",9
+"124",108148546,"Angel","Escobar","2022-2023","Achieve","1916 Hemlock Drive","","Rodriguez, Nancy","817-937-5412",TRUE,"Tarrant County",9
+"125",108153803,"Lorelai","Rojas","2022-2023","Achieve","1624 Alston Ave","","Rojas, Damaris","817-841-0302",TRUE,"Tarrant County",9
+"126",108101352,"Idris","Montgomery","2022-2023","Achieve","6200 Pershing Ave Apt 366","","Montgomery, Erin","1-817-323-0190",TRUE,"Tarrant County",9
+"127",108107763,"Luis","Garcia","2022-2023","Achieve","1706 North Sylvania Avenue","","Beltran, Abigail","682-333-8364",TRUE,"Tarrant County",9
+"128",108135601,"Raymond","Resendez","2022-2023","Achieve","2327 Dell St","","Valles, Tanya","817-966-3747",TRUE,"Tarrant County",9

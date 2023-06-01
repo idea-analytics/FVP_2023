@@ -1,0 +1,184 @@
+---
+title: "Family Value Proposition Focus Groups sampling"
+author: "Aline Orr"
+date: "2023-05-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+#renv::install("idea-analytics/ideacolors")
+#install.package("here")
+library(tidyverse)
+library(ideadata)
+library(ideacolors)
+library(here)
+
+HARD_RECRUIT <- c("Bluff Springs", "Health Professions", "Kyle", "Parmer Park", "Mesa Hills", "Rio vista", "Owassa", "Sports Park", "Toros", "Robinson", "Brackenridge", "Burk", "Carver", "Converse", "Eastside", "Ewing", "Najim", "Hidden Meadow", "Ingram Hill", "Monterrey Park", "Walzem", "Achieve", "Innovation", "UP", "River Bluff", "Valley View")
+
+LOW_ENGAGE <- c(108807018, 108807058, 108807109, 108807006, 108807046, 108807107, 108807019, 108807059, 108807016, 108807056, 108807203, 108807303, 109907025, 108807097, 108807197, 109907019, 108807004, 108807044, 108807095, 109907017, 108807010, 108807050, 108807110, 108807088, 109907010, 108807096, 109907018, 108807027, 108807067, 108807127, 108807020, 108807060, 108807024, 108807064, 108807124, 108807184, 108807201, 109907023, 108807185, 108807040, 108807140, 109907003, 108807206, 108807306, 109907028, 108807186, 108807087, 108807187, 109907009, 108807037, 108807077, 108807137, 108807090, 109907012, 108807091, 108807191, 109907013, 108807093, 108807193, 109907015, 108807194, 59510, 59511, 59512, 59310, 59311, 59312, 917004, 917005, 917006, 917001, 917002, 917003, 917007, 917008, 917009, 12001, 12002, 12003, 78400, 78401, 78402, 12004, 12005, 12006, 78350, 78351, 78352, 39001, 39002, 39003, 39004, 39005, 39006)
+
+HIGH_NEED <- c("Bluff Springs", "Health Professions", "Parmer Park", "Valley View", "Price Hill", "Innovation", "UP", "River Bluff", "Bassett", "Najim", "Eastside", "Carver", "Robinson", "Mesa Hills", "Sports Park", "Toros", "Owassa", "Achieve")
+
+New_Enrol <- c("Burke", "Monterrey Park", "Brackenridge", "Ingram Hills")
+
+```
+
+Get student
+```{r}
+Fams <- get_table(.table_name = "Students", 
+                   .database_name = "PROD1", 
+                   .schema = "Schools", 
+                   .server_name = "RGVPDSD-DWPRD1") %>%
+  select(StudentNumber
+      ,AcademicYear
+      ,SchoolNumber
+      ,GradeLevelID
+      ,EnrollmentStatus
+      ,FirstName
+      ,LastName
+      ,PhysicalStreet
+      ,PhysicalCity
+      ,PhysicalState
+      ,PhysicalZIP
+      ,MailStreet
+      ,MailCity
+      ,MailState
+      ,MailZIP
+      ,FamilyRep
+      ,FatherFullName
+      ,FatherHomePhone
+      ,FatherDayPhone
+      ,MotherFullName
+      ,MotherHomePhone
+      ,PhoneStudentHome
+      ,ECDFlag
+       ) %>%
+  filter(AcademicYear == "2022-2023",
+         EnrollmentStatus == "0",
+         ECDFlag == "TRUE") %>%
+  distinct()%>%
+  collect()
+ 
+
+Stream1 <- get_table(.table_name = "StudentContacts", 
+                   .database_name = "SRC_Stream", 
+                   .schema = "dbo", 
+                   .server_name = "RGVPDSD-DWSRC3") %>%
+  # collect()
+  select(student_number
+      ,emailAddress)%>%
+  #     ,emailType
+  #     ,phoneNumber = phoneNumberAsEntered
+  #     ,phoneType
+  #     ,street
+  #     ,city
+  #     ,state
+  #     ,postalCode
+  #     ,addressType) %>%
+  #filter(student_number != "") %>%
+  #filter(!is.na(student_number)) %>%
+  mutate(StudentNumber = as.numeric(student_number))%>%
+ # filter(!is.na(StudentNumber))%>%
+ # filter(StudentNumber =! "") %>%
+  collect()
+ # filter(!is.na(StudentNumber))
+
+Stream <- Stream1 %>%
+  filter(StudentNumber != "0")%>%
+  distinct()
+  
+```
+
+Get schools and regions join w/student info
+```{r}
+Schools <- get_table(.table_name = "Schools", 
+                   .database_name = "PROD1", 
+                   .schema = "Schools", 
+                   .server_name = "RGVPDSD-DWPRD1") %>%
+  select(SchoolNumber, SchoolName, SchoolShortName, RegionID) %>%
+  collect()
+
+Regions <- get_table(.table_name = "Regions", 
+                   .database_name = "PROD1", 
+                   .schema = "Schools", 
+                   .server_name = "RGVPDSD-DWPRD1") %>%
+  select(RegionID, RegionDescription) %>%
+  collect()
+
+schl_name <- left_join(Schools, Regions, by = "RegionID")
+
+Fam_list <- left_join(Fams, Stream, by = "StudentNumber")
+  
+
+Full_List <- left_join(Fam_list, schl_name,by = "SchoolNumber")
+  
+
+```
+
+Hard to recruit random sample by region
+```{r}
+HardRec <- Full_List %>%
+  filter(SchoolShortName %in% HARD_RECRUIT) %>%
+  select(StudentNumber, FirstName, LastName, AcademicYear, SchoolShortName, PhysicalStreet, FatherFullName, MotherFullName, PhoneStudentHome, emailAddress, ECDFlag, RegionDescription, RegionID)
+
+HRecSample <- HardRec %>%
+  group_by(RegionDescription) %>%
+  slice_sample(n=16)
+
+HRecSample
+
+write.csv(HRecSample, file = here::here("Hard_To_Recruit_Sample.csv"))
+```
+
+Low engagement random sample by region
+```{r}
+Full_List2 <- Full_List %>%
+  anti_join(HRecSample, by = "StudentNumber")
+
+LoEngage <- Full_List2 %>%
+  filter(SchoolNumber %in% LOW_ENGAGE) %>%
+   select(StudentNumber, FirstName, LastName, AcademicYear, SchoolShortName, PhysicalStreet, FatherFullName, MotherFullName, PhoneStudentHome, emailAddress, ECDFlag, RegionDescription, RegionID)
+
+LoEngageSample <- LoEngage %>%
+  group_by(RegionDescription) %>%
+  slice_sample(n=16)
+
+LoEngageSample
+write.csv(LoEngageSample, file = here::here("Low_Engagement_Sample.csv"))
+```
+
+High needs random sample by region
+```{r}
+Full_List3 <- Full_List2 %>%
+  anti_join(LoEngageSample, by = "StudentNumber")
+
+HiNeeds <- Full_List3 %>%
+  filter(SchoolShortName %in% HIGH_NEED) %>%
+   select(StudentNumber, FirstName, LastName, AcademicYear, SchoolShortName, PhysicalStreet, FatherFullName, MotherFullName, PhoneStudentHome, emailAddress, ECDFlag, RegionDescription, RegionID)
+
+HighNeedSample <- HiNeeds %>%
+  group_by(RegionDescription) %>%
+  slice_sample(n=16)
+
+HighNeedSample
+write.csv(HighNeedSample, file = here::here("High_Needs_Sample.csv"))
+```
+New Enrollment random sample by region
+
+```{r}
+Full_List4 <- Full_List3 %>%
+  anti_join(HighNeedSample, by = "StudentNumber")
+
+NewEnrollment <- Full_List4 %>%
+  filter(SchoolShortName %in% New_Enrol) %>%
+  select(StudentNumber, FirstName, LastName, AcademicYear, SchoolShortName, PhysicalStreet, FatherFullName, MotherFullName, PhoneStudentHome, emailAddress, ECDFlag, RegionDescription, RegionID)
+
+NewEnrolSample <- NewEnrollment %>%
+  group_by(RegionDescription) %>%
+  slice_sample(n=16)
+
+NewEnrolSample
+write.csv(NewEnrolSample, file = here::here("Newly_Enrolled_Sample.csv"))
+```
+

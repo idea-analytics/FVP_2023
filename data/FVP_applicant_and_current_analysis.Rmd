@@ -1,0 +1,283 @@
+---
+author: "Aline Orr"
+title: "FVP survey analysis"
+output: html_notebook
+---
+
+```{r}
+library(DescTools)
+
+HARD_RECRUIT <- c("Bluff Springs", "Health Professions", "Kyle", "Parmer Park", "Mesa Hills", "Rio vista", "Owassa", "Sports Park", "Toros", "Robinson", "Brackenridge", "Burk", "Carver", "Converse", "Eastside", "Ewing", "Najim", "Hidden Meadow", "Ingram Hill", "Monterrey Park", "Walzem", "Achieve", "Innovation", "UP", "River Bluff", "Valley View")
+
+LOW_ENGAGE <- c(108807018, 108807058, 108807109, 108807006, 108807046, 108807107, 108807019, 108807059, 108807016, 108807056, 108807203, 108807303, 109907025, 108807097, 108807197, 109907019, 108807004, 108807044, 108807095, 109907017, 108807010, 108807050, 108807110, 108807088, 109907010, 108807096, 109907018, 108807027, 108807067, 108807127, 108807020, 108807060, 108807024, 108807064, 108807124, 108807184, 108807201, 109907023, 108807185, 108807040, 108807140, 109907003, 108807206, 108807306, 109907028, 108807186, 108807087, 108807187, 109907009, 108807037, 108807077, 108807137, 108807090, 109907012, 108807091, 108807191, 109907013, 108807093, 108807193, 109907015, 108807194, 59510, 59511, 59512, 59310, 59311, 59312, 917004, 917005, 917006, 917001, 917002, 917003, 917007, 917008, 917009, 12001, 12002, 12003, 78400, 78401, 78402, 12004, 12005, 12006, 78350, 78351, 78352, 39001, 39002, 39003, 39004, 39005, 39006)
+
+HIGH_NEED <- c("Bluff Springs", "Health Professions", "Parmer Park", "Valley View", "Price Hill", "Innovation", "UP", "River Bluff", "Bassett", "Najim", "Eastside", "Carver", "Robinson", "Mesa Hills", "Sports Park", "Toros", "Owassa", "Achieve")
+
+New_Enrol <- c("Burke", "Monterrey Park", "Brackenridge", "Ingram Hills")
+
+```
+
+Bring in survey responses
+```{r}
+FVPapp <- read_csv(here::here("data/FVP_Applicant_Fam_2023_final_ncount2441.csv"))
+
+#distinct(FVPapp, Q2_1)
+
+FVPcur <- read_csv(here::here("data/FVP_Current_Fam_2023_final_ncount1799.csv"))
+#distinct(FVPcur1, Q2_1)
+
+
+```
+
+Applicant
+```{r}
+FVPapp1 <- FVPapp %>%
+  mutate(state = case_when(Q2_1 %in% c("Permian Basin", "Rio Grande Valley", "Austin", "El Paso", "San Antonio", "Tarrant County", "Greater Houston Area") ~ "TX",
+         Q2_1 %in% c("Tampa", "Jacksonville") ~ "FL",
+         Q2_1 %in% c("Southern Louisiana") ~ "LA",
+         Q2_1 %in% c("Cincinnati") ~ "OH", .default = as.character(Q2_1)),
+         schlevel = case_when(Q4 == "Kinder" ~ "Kinder",
+                              Q4 %in% c("6th Grade", "7th Grade", "8th Grade", "9th Grade") ~ "6th - 9th", 
+                              .default = "other"))
+```
+
+Current
+```{r}
+#All
+FVPcur1 <- FVPcur %>%
+  mutate(tenure = if_else(Q15 == "Less than 1 year", "<1","2+"),
+         race = if_else(Q17 %in% c("White", "Black of African American", "Asian", "American Indian or Alaska Native", "Native Hawaiian or Other Pacific Islander"), Q17, "Multiple Races"),
+         state = case_when(Q2_1 %in% c("Rio Grande Valley", "San Antonio", "El Paso", "Tarrant County", "Austin", "Permian Basin", "Greater Houston Area") ~ "TX",
+         Q2_1 %in% c("Tampa", "Jacksonville") ~ "FL",
+         Q2_1 %in% c("Southern Louisiana") ~ "LA",
+         Q2_1 %in% c("Cincinnati") ~ "OH", .default = as.character(Q2_1)),
+         income = if_else(Q5 %in% c("$100,000 - $149,999", "$150,000 - $199,999", "$200,000 or more"), "$100,000 or more", Q5),
+         decision = if_else(Q19 %in% c("Myself", "My spouse or student's other parent/guardian/step-parent", "Other (Please specify)", "The student"), Q19, "Myself and/or my spouse and others"),
+         motivator1 = if_else(Q7 %like% "Strong academic performance of students", "1", "0"),
+       #  motivator1 = as.numeric()
+         motivator2 = if_else(Q7 %like% "Commitment to college readiness", "1", "0"),
+         motivator3 = if_else(Q7 %like% "Individualized learning experience for students", "1", "0"),
+         motivator4 = if_else(Q7 %like% "High-quality teaching staff", "1", "0"),
+         motivator5 = if_else(Q7 %like% "Extracurricular opportunities for students", "1", "0"),
+         motivator6 = if_else(Q7 %like% "Social emotional learning and growth", "1", "0"),
+         motivator7 = if_else(Q7 %like% "Convenient location/Proximity to home or work", "1", "0"),
+         motivator8 = if_else(Q7 %like% "Relationship with teachers/staff", "1", "0"),
+         motivator9 = if_else(Q7 %like% "Commitment to school safety and security", "1", "0"),
+        
+  )
+ 
+         
+#distinct(FVPcur1, Q17)
+#distinct(FVPcur1, Q2_1)
+#distinct(FVPcur1, Q5)
+#distinct(FVPcur1, Q19)
+#distinct(FVPcur1, Q7)
+# recode ethnic/race into one var
+
+```
+
+Ethnicity and race summaries 
+```{r}
+Ethnic <- FVPcur1 %>%
+  group_by(Q16) %>%
+  filter(!is.na(Q16)) %>%
+  summarise(n_his = n()) %>%
+  mutate(proc = (n_his/sum(n_his)*100)) %>%
+ungroup()
+
+Ethnic
+
+#by region and state
+# Ethnic2 <- FVPcur1 %>%
+#   group_by(Q2_1, Q16) %>%
+#   filter(!is.na(Q16)) %>%
+#   summarise(n_his = n()) %>%
+#   mutate(proc = (n_his/sum(n_his)*100)) %>%
+# ungroup()
+# Ethnic2
+# 
+# Ethnic3 <- FVPcur1 %>%
+#   group_by(state, Q16) %>%
+#   filter(!is.na(Q16)) %>%
+#   summarise(n_his = n()) %>%
+#   mutate(proc = (n_his/sum(n_his)*100)) %>%
+# ungroup()
+# Ethnic3 
+ 
+Race <- FVPcur1 %>%
+  group_by(race) %>%
+  filter(!is.na(race)) %>%
+  summarise(n_race = n()) %>%
+  mutate(proc = (n_race/sum(n_race)*100)) %>%
+ungroup()
+Race
+
+# #by region and state
+# Race2 <- FVPcur1 %>%
+#   group_by(Q2_1, race) %>%
+#   filter(!is.na(race)) %>%
+#   summarise(n_race = n()) %>%
+#   mutate(proc = (n_race/sum(n_race)*100)) %>%
+# ungroup()
+# Race2
+# 
+# Race3 <- FVPcur1 %>%
+#   group_by(state, race) %>%
+#   filter(!is.na(race)) %>%
+#   summarise(n_race = n()) %>%
+#   mutate(proc = (n_race/sum(n_race)*100)) %>%
+# ungroup()
+# Race3 
+
+ # summarise(total_n = nrow()) %>%
+  # group_by("Q16")%>%
+  # summarise(n_His = n(),
+  #           his_pct = round((n_His/total_n), digits = 4))
+
+
+```
+
+Income level summaries: all participants/by region/by state
+```{r}
+
+Income <- FVPcur1 %>%
+  group_by(income) %>%
+  filter(!is.na(income)) %>%
+  summarise(n_income = n()) %>%
+  mutate(proc = (n_income/sum(n_income)*100)) %>%
+ungroup()
+
+Income
+
+#by region and state
+# Income2 <- FVPcur1 %>%
+#   group_by(Q2_1, income) %>%
+#   filter(!is.na(income)) %>%
+#   summarise(n_income = n()) %>%
+#   mutate(proc = (n_income/sum(n_income)*100)) %>%
+# ungroup()
+# Income2
+# 
+# Income3 <- FVPcur1 %>%
+#   group_by(state, income) %>%
+#   filter(!is.na(income)) %>%
+#   summarise(n_income = n()) %>%
+#   mutate(proc = (n_income/sum(n_income)*100)) %>%
+# ungroup()
+# Income3 
+
+```
+Primary decision maker
+
+```{r}
+Decision <- FVPcur1 %>%
+  group_by(decision) %>%
+  filter(!is.na(decision)) %>%
+  summarise(n_decision = n()) %>%
+  mutate(proc = (n_decision/sum(n_decision)*100)) %>%
+ungroup()
+
+Decision
+
+# #by region and state
+# Decision2 <- FVPcur1 %>%
+#   group_by(Q2_1, decision) %>%
+#   filter(!is.na(decision)) %>%
+#   summarise(n_decision = n()) %>%
+#   mutate(proc = (n_decision/sum(n_decision)*100)) %>%
+# ungroup()
+# Decision2
+# 
+# Decision3 <- FVPcur1 %>%
+#   group_by(state, decision) %>%
+#   filter(!is.na(decision)) %>%
+#   summarise(n_decision = n()) %>%
+#   mutate(proc = (n_decision/sum(n_decision)*100)) %>%
+# ungroup()
+# Decision3 
+
+```
+Most frequent influencial factors
+
+bring data in, from Q6_1 - Q6_11 count how many times 1st, 2nd, & 3rd choices.
+```{r}
+# Influences1 <- FVPcur1 %>%
+#   group_by(Q6_1) %>%
+#   filter(!is.na(Q6_1)) %>%
+#   #       Q6_1 %in% c(1,2,3)) %>%
+#   summarise(first_Q61 = n()) %>%
+#   mutate(proc = (first_Q61/sum(first_Q61)*100)) %>%
+# ungroup()
+# Influences1
+
+
+group_Q6 <- function(.data){
+  list(
+    group_by(.data, Q6_1),
+    group_by(.data, Q6_2),
+    group_by(.data, Q6_3),
+    group_by(.data, Q6_4),
+    group_by(.data, Q6_5),
+    group_by(.data, Q6_6),
+    group_by(.data, Q6_7),
+    group_by(.data, Q6_8),
+    group_by(.data, Q6_9),
+    group_by(.data, Q6_10),
+    group_by(.data, Q6_11)
+
+  )
+}
+
+Influences <- FVPcur1 %>%
+  filter(!is.na(Q6_1))%>%
+ group_Q6() %>%
+  map_df(., ~{summarise(.x, first_Q6 = n()) %>%
+             mutate(proc = (first_Q6/sum(first_Q6)*100))})
+  #ungroup()
+  Influences
+
+```
+Most frequent motivators
+
+```{r}
+group_motivators <- function(.data){
+  list(
+    group_by(.data, motivator1),
+    group_by(.data, motivator2),
+    group_by(.data, motivator3),
+    group_by(.data, motivator4),
+    group_by(.data, motivator5),
+    group_by(.data, motivator6),
+    group_by(.data, motivator7),
+    group_by(.data, motivator8),
+    group_by(.data, motivator9)
+  )
+}
+
+
+Motivator <- FVPcur1 %>%
+  select(motivator1:motivator9)%>%
+  filter(motivator1 != "0" |
+           motivator2 != "0" |
+           motivator3 != "0" |
+           motivator4 != "0" |
+           motivator5 != "0" |
+           motivator6 != "0" |
+           motivator7 != "0" |
+           motivator8 != "0" |
+           motivator9 != "0" 
+           )%>%
+  mutate(across(motivator1:motivator9, as.numeric))%>%
+
+#  filter(!is.na(Q6_1))%>%
+ group_motivators() %>%
+  map_df(., ~{summarise(.x, selected = n()) %>%
+             mutate(perc = (selected/sum(selected)*100))
+    })
+  #ungroup()
+Motivator
+
+
+
+```
+

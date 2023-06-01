@@ -1,0 +1,129 @@
+"","StudentNumber","AcademicYear","SchoolShortName","FatherFullName","MotherFullName","PhoneStudentHome","ECDFlag","RegionDescription","RegionID"
+"1",108092646,"2022-2023","Parmer Park","","Lopez, Evelia","737-867-0639",TRUE,"Austin",1
+"2",108138113,"2022-2023","Parmer Park","","Loredo, Elida","512-920-9973",TRUE,"Austin",1
+"3",108150301,"2022-2023","Health Professions","","Meyer, Serena","512-525-0380",TRUE,"Austin",1
+"4",108196856,"2022-2023","Parmer Park","","Ibarra, Juana","512-770-2714",TRUE,"Austin",1
+"5",108053854,"2022-2023","Bluff Springs","Contreras Galan, Homero","Avalos, Monica","512-375-9070",TRUE,"Austin",1
+"6",108119060,"2022-2023","Parmer Park","","Pena, Yadira","737-240-9557",TRUE,"Austin",1
+"7",108193626,"2022-2023","Bluff Springs","","Pineda, Waldina","512-210-6822",TRUE,"Austin",1
+"8",108142352,"2022-2023","Health Professions","","ortiz quintanilla, maria Estefana","512-855-0116",TRUE,"Austin",1
+"9",108187588,"2022-2023","Parmer Park","Barrera Trejo, Alfredo","Rodriguez, Esther","512-586-3804",TRUE,"Austin",1
+"10",108187382,"2022-2023","Parmer Park","Navarro Osorio, Fernando","Martinez Larios, Keilyn","737-895-0097",TRUE,"Austin",1
+"11",108053837,"2022-2023","Health Professions","","Swist, Briana","512-698-7851",TRUE,"Austin",1
+"12",108039591,"2022-2023","Bluff Springs","Marroquin Salazar, Valerio","Fuentes Ibarra, Laura","512-740-8079",TRUE,"Austin",1
+"13",108152888,"2022-2023","Parmer Park","Nieto, Vicente","Patterson, Yioma","512-662-6980",TRUE,"Austin",1
+"14",108053812,"2022-2023","Bluff Springs","Belmares-Salazar, Rogelio","Paz, Tahlia","737-336-5128",TRUE,"Austin",1
+"15",108188983,"2022-2023","Parmer Park","Jaimes Cruz, Rodrigo","Vazquez, Jaquelin","512-422-6955",TRUE,"Austin",1
+"16",108074940,"2022-2023","Bluff Springs","Mendez, Francisco","Mendez, Veronica","1-512-507-3115",TRUE,"Austin",1
+"17",390002043,"2022-2023","Price Hill","","Davis, Dominique","513-328-4263",TRUE,"Cincinnati",14
+"18",390005181,"2022-2023","Price Hill","","","513-507-7367",TRUE,"Cincinnati",14
+"19",390003701,"2022-2023","Price Hill","Hernandez Simon, Horacio","Morales, Anabely","513-525-9747",TRUE,"Cincinnati",14
+"20",390000641,"2022-2023","Valley View","","Mazate, Marleny","513-915-2017",TRUE,"Cincinnati",14
+"21",390001561,"2022-2023","Valley View","","Gomez Lorenzo, Ana","513-525-0676",TRUE,"Cincinnati",14
+"22",390004161,"2022-2023","Price Hill","Davis, Lateef","Ranesha, Zyyon","513-237-8369",TRUE,"Cincinnati",14
+"23",390000017,"2022-2023","Valley View","Cavins, Shawn","Wagner, Tajsheba","513-908-2539",TRUE,"Cincinnati",14
+"24",390002042,"2022-2023","Valley View","Brown, Antonio","Buckner, Latoya","513-546-3654",TRUE,"Cincinnati",14
+"25",390000601,"2022-2023","Price Hill","Jackson, Romeco","Gambril, Marlissa","734-624-3530",TRUE,"Cincinnati",14
+"26",390000111,"2022-2023","Price Hill","Williams, Damaria","Rainey, Chavonna","513-238-8981",TRUE,"Cincinnati",14
+"27",390003001,"2022-2023","Price Hill","","Hein, Natasha","5137438053",TRUE,"Cincinnati",14
+"28",390004103,"2022-2023","Price Hill","","Coates, Dijanarina","513-912-9147",TRUE,"Cincinnati",14
+"29",390003843,"2022-2023","Valley View","","Garrett, Danielle","513-545-3050",TRUE,"Cincinnati",14
+"30",390000059,"2022-2023","Price Hill","","Moore, Shellina","513-915-9265",TRUE,"Cincinnati",14
+"31",390001421,"2022-2023","Valley View","Williamson, Dantrius","Alexander, Janika","513-816-6834",TRUE,"Cincinnati",14
+"32",390000156,"2022-2023","Price Hill","","Butler, Carteama","513-545-1595",TRUE,"Cincinnati",14
+"33",108105398,"2022-2023","Mesa Hills","Propst, David","Carrillo, Crystal","915-305-3942",TRUE,"El Paso",5
+"34",108192615,"2022-2023","Mesa Hills","Parra, Raul","Parra, Vianney","915-263-0350",TRUE,"El Paso",5
+"35",108091815,"2022-2023","Mesa Hills","","Marin, Stephanie","1-915-333-9902",TRUE,"El Paso",5
+"36",108100218,"2022-2023","Mesa Hills","Robles, Ralph","Cabral, Melinda","915-256-7543",TRUE,"El Paso",5
+"37",108196213,"2022-2023","Mesa Hills","Piletti, Gianbattista","Pacileo, Maria","786-850-5055",TRUE,"El Paso",5
+"38",108137693,"2022-2023","Mesa Hills","Parker, Stephen","Parker, Cynthia","915-345-7858",TRUE,"El Paso",5
+"39",108160963,"2022-2023","Mesa Hills","","Del Soccorro Trujillo, Maria","915-922-8306",TRUE,"El Paso",5
+"40",108214267,"2022-2023","Mesa Hills","","Aguilar, Gabriela","915-979-8057",TRUE,"El Paso",5
+"41",108092050,"2022-2023","Mesa Hills","Dorador, Sergio","","915-630-4511",TRUE,"El Paso",5
+"42",108180190,"2022-2023","Mesa Hills","","Myers, Daisy","915-352-0944",TRUE,"El Paso",5
+"43",108130487,"2022-2023","Mesa Hills","","Lohre, Christina","915-787-0588",TRUE,"El Paso",5
+"44",108193496,"2022-2023","Mesa Hills","Bezboruah, Christian","Velasco, Odette","915-704-7353",TRUE,"El Paso",5
+"45",108197957,"2022-2023","Mesa Hills","","Houghton, Madelaine","786-602-8508",TRUE,"El Paso",5
+"46",108101376,"2022-2023","Mesa Hills","Rodriguez, Milton","Carrillo, María","1-915-433-8021",TRUE,"El Paso",5
+"47",108203667,"2022-2023","Mesa Hills","Petalcu, Andres","","575-222-6738",TRUE,"El Paso",5
+"48",108117560,"2022-2023","Mesa Hills","Flores, Christian","Uribe, Priscilla","915-269-2999",TRUE,"El Paso",5
+"49",120009036,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"50",120008328,"2022-2023","River Bluff","","","",TRUE,"Jacksonville",15
+"51",120009724,"2022-2023","River Bluff","","","",TRUE,"Jacksonville",15
+"52",120010093,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"53",120008788,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"54",120008062,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"55",120009590,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"56",120008372,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"57",120008629,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"58",120010159,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"59",120010123,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"60",120009597,"2022-2023","River Bluff","","","",TRUE,"Jacksonville",15
+"61",120008677,"2022-2023","River Bluff","","","",TRUE,"Jacksonville",15
+"62",120009217,"2022-2023","Bassett","","","",TRUE,"Jacksonville",15
+"63",120008022,"2022-2023","River Bluff","","","",TRUE,"Jacksonville",15
+"64",120009836,"2022-2023","River Bluff","","","",TRUE,"Jacksonville",15
+"65",108196905,"2022-2023","Owassa","Cantu, Rodrigo","Chagoya, Itzel","956-777-4145",TRUE,"Rio Grande Valley",7
+"66",108195243,"2022-2023","Owassa","","Torres, Yvette","956-250-8022",TRUE,"Rio Grande Valley",7
+"67",108192411,"2022-2023","Owassa","Guzman, Edgar","Guzman, Amanda","956-961-5884",TRUE,"Rio Grande Valley",7
+"68",108204800,"2022-2023","Sports Park","","Quezada, Maria","956-338-8226",TRUE,"Rio Grande Valley",7
+"69",108143094,"2022-2023","Toros","","Vanessa, Valentin","956-673-7126",TRUE,"Rio Grande Valley",7
+"70",108198030,"2022-2023","Owassa","Guzman, Edgar","Guzman, Amanda","956-961-5884",TRUE,"Rio Grande Valley",7
+"71",108149595,"2022-2023","Sports Park","","Torres, Jazmine","956-667-2060",TRUE,"Rio Grande Valley",7
+"72",108097106,"2022-2023","Sports Park","Perez, Jesus","Mancilla, Theresa","1-956-518-1750",TRUE,"Rio Grande Valley",7
+"73",108064197,"2022-2023","Owassa","Gonzalez, Fermin Carlos","Gonzalez, Myriam","956-340-6911",TRUE,"Rio Grande Valley",7
+"74",108126220,"2022-2023","Owassa","","Martinez, Daniella","956-325-4860",TRUE,"Rio Grande Valley",7
+"75",108101834,"2022-2023","Owassa","Ramirez, Aldo","Avila, Ana","",TRUE,"Rio Grande Valley",7
+"76",108196058,"2022-2023","Owassa","Molina, Alejandro","Torres, Amanda","956-878-5153",TRUE,"Rio Grande Valley",7
+"77",108203689,"2022-2023","Owassa","Cavazos, Alonso","Gama, Cynthia","899-917-9314",TRUE,"Rio Grande Valley",7
+"78",108123282,"2022-2023","Toros","Hernandez, Efrain","Cervantes, Elizabeth","956-884-3916",TRUE,"Rio Grande Valley",7
+"79",108143074,"2022-2023","Sports Park","","Herrera, Carolina","956-404-4305",TRUE,"Rio Grande Valley",7
+"80",108077929,"2022-2023","Sports Park","Davila, Yamir","Ramos, Daisy","956-357-3950",TRUE,"Rio Grande Valley",7
+"81",108140222,"2022-2023","Carver","Gildon, Christopher","Palencia, Roseanna","210-765-8884",TRUE,"San Antonio",2
+"82",108083508,"2022-2023","Carver","Morales, Mark","CAMPA, JULIE","1-210-854-3532",TRUE,"San Antonio",2
+"83",108138442,"2022-2023","Eastside","","Torres, Lorraine","210-318-6459",TRUE,"San Antonio",2
+"84",108072763,"2022-2023","Eastside","","Sanchez, Yazmin","1-210-290-4730",TRUE,"San Antonio",2
+"85",108039309,"2022-2023","Eastside","Garcia, Robert","Garcia, Johnnie","1-210-941-8593",TRUE,"San Antonio",2
+"86",108083597,"2022-2023","Carver","","Perales, Annalisa","1-210-779-3460",TRUE,"San Antonio",2
+"87",108084949,"2022-2023","Carver","","Garibay, Maria","210-278-8750",TRUE,"San Antonio",2
+"88",108210449,"2022-2023","Najim","","Mendoza, Nancy","210-777-2730",TRUE,"San Antonio",2
+"89",108119219,"2022-2023","Najim","","Rodriguez, Maribel","956-240-2597",TRUE,"San Antonio",2
+"90",108054240,"2022-2023","Carver","Lopez, Joseph","Lopez, LORRAINE","1-210-708-9447",TRUE,"San Antonio",2
+"91",108054846,"2022-2023","Eastside","Garces, Hugo","Santin, Adriana","1-210-378-0170",TRUE,"San Antonio",2
+"92",108140387,"2022-2023","Eastside","Alonso Medina, Emmanuel Abel","Navarro, Xennya","210-548-4036",TRUE,"San Antonio",2
+"93",108086631,"2022-2023","Najim","Garcia, Felix","Garcia, Jessica","210-762-9384",TRUE,"San Antonio",2
+"94",108099436,"2022-2023","Carver","","Gonzales, Samantha","726-888-0752",TRUE,"San Antonio",2
+"95",108105805,"2022-2023","Robinson","Howard, Sean","Howard, Sarah","210-962-1728",TRUE,"San Antonio",2
+"96",108099422,"2022-2023","Eastside","","Thomas, Alexis","1-678-614-4625",TRUE,"San Antonio",2
+"97",101005601,"2022-2023","Innovation","Ardon, Martir Luis","Hernandez, Zonia","225-362-0746",TRUE,"Southern Louisiana",6
+"98",101014648,"2022-2023","Innovation","","Pinto, Dilcia","225-405-3230",TRUE,"Southern Louisiana",6
+"99",101002826,"2022-2023","Innovation","Houston, Traven","Simmons, Melane","225-763-1607",TRUE,"Southern Louisiana",6
+"100",101014783,"2022-2023","UP","","Gorum, Briana","504-451-9724",TRUE,"Southern Louisiana",6
+"101",101001018,"2022-2023","Innovation","","Hopkins, Latoya","225-409-5634",TRUE,"Southern Louisiana",6
+"102",101015547,"2022-2023","UP","Johnson, Marcus","Turner, Laterica","225-485-6290",TRUE,"Southern Louisiana",6
+"103",101015546,"2022-2023","UP","Porter, Job","Turner, Lashawnda","225-620-9405",TRUE,"Southern Louisiana",6
+"104",101007334,"2022-2023","UP","","Paredes, Mirna","225-505-3263",TRUE,"Southern Louisiana",6
+"105",101009074,"2022-2023","Innovation","","Walker, Landrial","225-888-9898",TRUE,"Southern Louisiana",6
+"106",101002577,"2022-2023","Innovation","","Prestly, Angelica","225-439-2221",TRUE,"Southern Louisiana",6
+"107",101010919,"2022-2023","Innovation","","Moreno, Nicole","225-895-1274",TRUE,"Southern Louisiana",6
+"108",101005627,"2022-2023","Innovation","Miranda, Neferli","","225-239-8365",TRUE,"Southern Louisiana",6
+"109",101020123,"2022-2023","UP","","Reed, Tycrystala","504-475-1568",TRUE,"Southern Louisiana",6
+"110",101015022,"2022-2023","Innovation","","Vasquez, Karla","225-846-4904",TRUE,"Southern Louisiana",6
+"111",101015384,"2022-2023","UP","","Porter, Keaira","225-678-6798",TRUE,"Southern Louisiana",6
+"112",101002527,"2022-2023","Innovation","Quevedo, Damian","Gonzalez, Leandra","225-726-9708",TRUE,"Southern Louisiana",6
+"113",108208487,"2022-2023","Achieve","Ramos, Wilber","","682-222-6307",TRUE,"Tarrant County",9
+"114",108181294,"2022-2023","Achieve","Maldonado, Isabel","Maldonado, Veronica","682-597-4222",TRUE,"Tarrant County",9
+"115",108099888,"2022-2023","Achieve","Espinoza, Victor","Espinoza, Maria","1-682-559-3894",TRUE,"Tarrant County",9
+"116",108181361,"2022-2023","Achieve","","","682-970-5800",TRUE,"Tarrant County",9
+"117",108181305,"2022-2023","Achieve","","Parker, Breanna","682-308-1654",TRUE,"Tarrant County",9
+"118",108091520,"2022-2023","Achieve","Bouie, Lethaniel","Bouie, Brooke","1-870-500-6373",TRUE,"Tarrant County",9
+"119",108119527,"2022-2023","Achieve","","Nerio, Lyann","682-360-1250",TRUE,"Tarrant County",9
+"120",108181273,"2022-2023","Achieve","","Rico, Nora","817-879-1541",TRUE,"Tarrant County",9
+"121",108181304,"2022-2023","Achieve","Garcia, Jacob","Prado, Juana","817-730-1638",TRUE,"Tarrant County",9
+"122",108142652,"2022-2023","Achieve","Sapien, Rosalio","Sapien, Margaret","682-552-0606",TRUE,"Tarrant County",9
+"123",108181364,"2022-2023","Achieve","Dominguez, Nelson","Velarde, Maria","817-361-2815",TRUE,"Tarrant County",9
+"124",108178179,"2022-2023","Achieve","","","682-970-5800",TRUE,"Tarrant County",9
+"125",108196517,"2022-2023","Achieve","","Sigala, Maria","817-600-0069",TRUE,"Tarrant County",9
+"126",108178337,"2022-2023","Achieve","Laster, Jonathan","Richardson, Jennifer","817-909-1526",TRUE,"Tarrant County",9
+"127",108156208,"2022-2023","Achieve","Lah, Lwe","Poe, Marie","682-225-3018",TRUE,"Tarrant County",9
+"128",108203589,"2022-2023","Achieve","","Simpson, Crystal","817-877-7773",TRUE,"Tarrant County",9

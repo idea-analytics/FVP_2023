@@ -1,0 +1,35 @@
+Applicant Family Survey Items,,,,Current Family Survey Items,
+,,,,,
+ResponseId,Response ID,,,ResponseId,Response ID
+UserLanguage,User Language,,,UserLanguage,User Language
+Q2_1,Which region and IDEA campus are you considering for your child's education? - Region,,,Q2_1,Which region and IDEA campus are you enrolled in? - Region
+Q2_2,Which region and IDEA campus are you considering for your child's education? - Campus,,,Q2_2,Which region and IDEA campus are you enrolled in? - Campus
+Q3,"If you are considering more than one campus for your child(ren), please enter the other campus(es) name(s) below.",,,Q3,"If you have children in multiple campuses, please enter the other campus(es) name(s) below."
+Q4,What grade level(s) are your child(ren) applying for? (Select all that apply),,,Q4,What grade level(s) is/are your child(ren) enrolled in? (Select all that apply)
+Q5,Which of these best describes your household income (all contributors)?,,,Q15,What is the longest you have had your student(s) enrolled at an IDEA campus?
+Q6_4,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Highly qualified and trained teachers,,,Q16,What is your ethnicity? [https://nces.ed.gov/ipeds/report-your-data/race-ethnicity-definitions]
+Q6_13,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Strong acdemic programs,,,Q17,Which of these best describes your race (select all that apply)?
+Q6_2,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Extracurricular activities,,,Q18,Which of these best explains your child's living situation? - Selected Choice
+Q6_3,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Individualized learning,,,Q18_4_TEXT,Which of these best explains your child's living situation? - Other (Please specify) - Text
+Q6_5,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Family partnership,,,Q19,Who are the primary decision-makers in your household for your student's education? (Select all that apply) - Selected Choice
+Q6_6,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Whole child development,,,Q19_4_TEXT,Who are the primary decision-makers in your household for your student's education? (Select all that apply) - Other (Please specify) - Text
+Q6_7,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - College preparation,,,Q5,Which of these best describes your household income (all contributors)?
+Q6_8,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Bilingual,,,Q6_1,Rank the following school features in order of their importance to you and your child - Focus on 100% college matriculation
+Q6_9,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Career and Technical Education (CTE) program,,,Q6_2,Rank the following school features in order of their importance to you and your child - Individualized learning
+Q6_10,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Strong stance against bullying,,,Q6_3,Rank the following school features in order of their importance to you and your child - Highly qualified and trained teachers
+Q6_11,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Safety/Security,,,Q6_4,Rank the following school features in order of their importance to you and your child - Family partnership
+Q6_12,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Other (Please specify),,,Q6_5,Rank the following school features in order of their importance to you and your child - Whole child development
+Q6_12_TEXT,Which factors are most important to you in choosing a school for your child? (Rank from most to least important) - Other (Please specify) - Text,,,Q6_6,Rank the following school features in order of their importance to you and your child - Extracurricular opportunities
+Q7,What motivates you to apply to IDEA Public Schools? (Select all that apply) - Selected Choice,,,Q6_7,Rank the following school features in order of their importance to you and your child - Rigorous curriculum
+Q7_8_TEXT,What motivates you to apply to IDEA Public Schools? (Select all that apply) - Other (Please specify) - Text,,,Q6_8,Rank the following school features in order of their importance to you and your child - Safety and security
+Q8,What are your educational goals for your child? (Select all that apply) - Selected Choice,,,Q6_9,Rank the following school features in order of their importance to you and your child - Zero Tolerance Bullying Policy
+Q8_5_TEXT,What are your educational goals for your child? (Select all that apply) - Other (Please specify) - Text,,,Q6_10,Rank the following school features in order of their importance to you and your child - College-going culture
+Q9,What concerns do you have about IDEA Public Schools that would prevent you from enrolling? (Select all that apply) - Selected Choice,,,Q6_11,Rank the following school features in order of their importance to you and your child - Other (Please specify)
+Q9_10_TEXT,What concerns do you have about IDEA Public Schools that would prevent you from enrolling? (Select all that apply) - Other (Please specify) - Text,,,Q6_11_TEXT,Rank the following school features in order of their importance to you and your child - Other (Please specify) - Text
+Q10,How did you hear about IDEA Public Schools? (Select all that apply) - Selected Choice,,,Q20,What made you choose to enroll your child(ren) in IDEA Public Schools?
+Q10_7_TEXT,How did you hear about IDEA Public Schools? (Select all that apply) - Other (Please specify) - Text,,,Q7,What motivates you to keep your children enrolled at IDEA Public Schools year after year? (Select all that apply) - Selected Choice
+Q11,Has your current school met expectations?,,,Q7_10_TEXT,What motivates you to keep your children enrolled at IDEA Public Schools year after year? (Select all that apply) - Other (Please specify) - Text
+Q12,What factors contributed to your decision to enroll your student in a new school?,,,Q12,How can IDEA Public Schools better meet your expectations as a parent/guardian?
+Q13,What expectations do you have for an IDEA campus that is different from you current school?,,,Q13,How can IDEA Public Schools better meet your student's needs?
+Q14,Is there anything else you'd like to share about your interest in IDEA Public Schools or your child's educational goals?,,,Q14,What would you say to other parents/guardians who are considering enrolling their child(ren) at IDEA Public Schools?
+,,,,Q21,Is there anything else you would like to share about your experience with IDEA Public Schools?
